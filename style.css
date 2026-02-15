@@ -2,7 +2,7 @@
     border: 2px solid black;
     gap: 10px;
     width: 100%;
-    height: 500px;
+    height: 97vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -10,7 +10,10 @@
 .div1{
     border: 2px solid black;
     background-color: green;
-    
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
 }
 .box1{
     grid-row: 1/13;
@@ -57,7 +60,9 @@
 .box15{
     grid-row: 9/11;
 }
-
+.box16{
+    grid-row: 11/13;
+}
 
 
 
